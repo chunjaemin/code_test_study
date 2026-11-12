@@ -20,3 +20,4 @@ def solution(n, results):
 			answer += 1
 
 	return answer
+

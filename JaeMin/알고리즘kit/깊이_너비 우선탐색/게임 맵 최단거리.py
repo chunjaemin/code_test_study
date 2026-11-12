@@ -4,8 +4,8 @@ def solution(maps):
     M = len(maps[0])
     R = [0,0,1,-1]
     C = [1,-1,0,0]
+    
     visited = [[-1] * M for _ in range(N)]
-    visited
     q = deque()
     q.append((0,0))
     visited[0][0] = 1
